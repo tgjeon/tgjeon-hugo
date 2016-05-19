@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="author" content="Taegyun Jeon">
+    <meta name="description" content="Research Scientist in Machine Learning and Biomedical Engineering">
+
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://tgjeon.github.io/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://tgjeon.github.io/post/deep_learning_in_a_nut_shell_core_concept/">
+
+    <title>Deep Learning in a Nutshell: Core Concepts | Taegyun Jeon</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tgjeon.github.io/">Taegyun Jeon</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+        <h1 itemprop="name">Deep Learning in a Nutshell: Core Concepts</h1>
+
+        
+
+<div class="article-metadata">
+
+    <span class="article-date">
+        <time datetime="2016-04-23 16:58:51 &#43;0900 KST" itemprop="datePublished">Sat, Apr 23, 2016</time>
+    </span>
+
+    
+    
+    
+    <span class="article-tags">
+        <i class="fa fa-tags"></i>
+        
+        <a class="article-tag-link" href="https://tgjeon.github.io/tags/deep-learning">Deep Learning</a>, 
+        
+        <a class="article-tag-link" href="https://tgjeon.github.io/tags/translation">Translation</a>
+        
+    </span>
+    
+    
+
+    
+        
+<ul class="share">
+    <li>
+        <a class="facebook" href="https://www.facebook.com/sharer.php?u=" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=&amp;url=" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+            <span class="hidden">LinkedIn</span>
+        </a>
+    </li>
+    <li>
+        <a class="email" href="mailto:?subject=&amp;body=">
+            <i class="fa fa-envelope-square"></i>
+            <span class="hidden">Email</span>
+        </a>
+    </li>
+</ul>
+
+
+    
+
+</div>
+
+
+        <div class="post" itemprop="articleBody">
+            
+
+<blockquote>
+<p><a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts">Original post</a> is written by Tim Dettmers</p>
+</blockquote>
+
+<p>이 포스트는 <a href="https://devblogs.nvidia.com/parallelforall">Parallel ForAll</a> 에 작성하는 시리즈 중 첫 글이며, <a href="https://developer.nvidia.com/deep-learning">딥 러닝</a>에 대해 직관적이고 가볍게 소개하고자 한다. 본 포스트는 딥 러닝의 가장 중요한 개념을 다루고 있으며, 수학적 이론 지식보다 기본적인 개념의 전달을 목적으로 한다. 수식과 함께라면 더 깊은 이해가 가능하겠지만, 이 포스트는 비유와 그림을 통해 더욱 이해하기 쉬운 직관적인 개요를 전달하고자 한다.
+이 글들은 단어사전식으로 작성되어 딥러닝 개념을 위한 참고자료로 사용 될 수 있다.</p>
+
+<p><a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts">Part 1</a>에서는 딥 러닝의 중요한 개념에 대해서 소개한다. <a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-history-training">Part 2</a>에서는 딥 러닝의 역사적 배경과 학습 과정, 알고리즘, 실용적인 기법 등을 살펴본다. <a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-sequence-learning">Part 3</a>에서는 자연어 번역을 위한 sequence learning 에 대해 알아본다. recurrent neural networks, LSTMs, encoder-decoder system을 포함한다.</p>
+
+<h3 id="core-concepts-핵심-개념:94c226eaa944803673f4f82b27d8c24f">Core Concepts (핵심 개념)</h3>
+
+<hr />
+
+<h4 id="machine-learning-기계-학습:94c226eaa944803673f4f82b27d8c24f">Machine Learning (기계 학습)</h4>
+
+<p>기계 학습을 통해 우리는 (1) 데이터를 획득하여, (2) 데이터를 통해 모델을 학습하고, (3) 학습된 모델을 이용하여, 새로운 데이터에 대해 예측한다. 모델을 <a href="http://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-history-training#training">학습</a>하는 과정은 새롭고, 익숙치 않은 자료를 하나씩 살펴보고 배움을 얻는 과정과도 같다. 각 단계마다, 모델은 예측을 하고, 얼마나 정확히 예측하였는지에 대해 피드백을 받는다. 이 피드백은 정답으로부터 얼만큼 차이가 나는지 등과 같은 방법을 통해 측정 가능한 오류(error)를 통해, 예측을 더 정확하게 하는데 사용된다.</p>
+
+<p>학습과정은 종종 파라미터 공간 (parameter space)에서 후진-전진이 반복는 게임이다: 만약 당신이 좋은 예측 결과를 얻기 위해 모델의 파라미터를 수정한다면, 이전에 제대로 예측했던 것도 수정 이후, 틀리게 예측될 수도 있다. 우수한 예측 성능을 가진 모델을 학습한다는 것은 많은 반복 작업이 필요할 것이다. 이런 반복적인 예측-수정의 과정은 예측 결과가 더 이상 발전이 없을 때 까지 반복한다.</p>
+
+<h4 id="feature-engineering-특징-추출:94c226eaa944803673f4f82b27d8c24f">Feature Engineering (특징 추출)</h4>
+
+<p>특징 추출은 <a href="https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/#machine-learning">기계 학습</a> 모델로 하여금 데이터들로 부터 클래스들을 쉽게 구분 할 수 있도록 도와주는 유용한 패턴을 추출 하는 것이다. 예를 들어,사진으로 부터 땅과 물고기를 구분하는 것을 초록색과 푸른색 픽셀의 수를 이용한다고 하자. 이런 특징은 기계 학습 모델에 도움이 된다. 좋은 분류를 위해 클래스의 갯수가 제한되어 있기때문에 좋은 분류가 가능하다.</p>
+
+<p>특징 추출은 대부분의 예측 분야에서 좋은 성능을 얻기위해 요구되는 가장 중요한 기술이다. 하지만, 다른 데이터 셋과 다른 종류의 데이터들은 각자 다른 특징 추출 기법이 필요하기에,최고의 특징 추출 기술을 습득하고 마스터하기엔 어렵다. 특징 추출은 과학이라기 보다 예술의 경지에 가깝다. 특정 데이터 셋에서 추출된 특징은 종종 다른 데이터 셋에서는 적용되지 않는다. (위 예제에서 계속하여, 다음 사진이 오직 육지 동물만 포함하는 경우). 특징 추출이 어렵다는 점과 많은 노력이 요구되는 점이 <strong>자동으로 특징을 학습할 수 있는 알고리즘</strong>을 찾게 되는 가장 큰 이유이다.</p>
+
+<p>While many tasks can be automated by Feature Learning (like object and speech recognition), feature engineering remains the single most effective technique to do well in difficult tasks (like most tasks in Kaggle machine learning competitions).</p>
+
+<h4 id="feature-learning-특징-학습:94c226eaa944803673f4f82b27d8c24f">Feature Learning (특징 학습)</h4>
+
+<h4 id="deep-learning-딥-러닝:94c226eaa944803673f4f82b27d8c24f">Deep Learning (딥 러닝)</h4>
+
+<h3 id="fundamental-concepts-기본-개념:94c226eaa944803673f4f82b27d8c24f">Fundamental Concepts (기본 개념)</h3>
+
+<hr />
+
+<h4 id="logistic-regression:94c226eaa944803673f4f82b27d8c24f">Logistic Regression ()</h4>
+
+<h4 id="artificial-neural-network-인공-신경망:94c226eaa944803673f4f82b27d8c24f">Artificial Neural Network (인공 신경망)</h4>
+
+<h4 id="unit:94c226eaa944803673f4f82b27d8c24f">Unit</h4>
+
+<h4 id="artificial-neuron:94c226eaa944803673f4f82b27d8c24f">Artificial Neuron</h4>
+
+<h4 id="activation-function:94c226eaa944803673f4f82b27d8c24f">Activation Function</h4>
+
+<h4 id="layer:94c226eaa944803673f4f82b27d8c24f">Layer</h4>
+
+<h3 id="convolutional-deep-learning:94c226eaa944803673f4f82b27d8c24f">Convolutional Deep Learning</h3>
+
+<hr />
+
+<h4 id="convolution:94c226eaa944803673f4f82b27d8c24f">Convolution</h4>
+
+<h4 id="pooling-subsampling:94c226eaa944803673f4f82b27d8c24f">Pooling / Subsampling</h4>
+
+<h4 id="convolutional-neural-network-cnn:94c226eaa944803673f4f82b27d8c24f">Convolutional Neural Network (CNN)</h4>
+
+<h4 id="inception:94c226eaa944803673f4f82b27d8c24f">Inception</h4>
+
+<h3 id="conclusion-to-part-1:94c226eaa944803673f4f82b27d8c24f">Conclusion to Part 1</h3>
+
+<hr />
+
+        </div>
+    </article>
+
+    <nav>
+    <ul class="pager">
+        
+
+        
+    </ul>
+</nav>
+
+    
+<section id="comments">
+    <div id="disqus_thread">
+        
+    </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Taegyun Jeon &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://tgjeon.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://tgjeon.github.io/js/bootstrap.min.js"></script>
+        <script src="https://tgjeon.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+
+    </body>
+</html>
+

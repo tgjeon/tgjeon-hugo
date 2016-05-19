@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://tgjeon.github.io/</loc>
+    <lastmod>2016-05-19T10:54:56+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/project/living_energy/</loc>
+    <lastmod>2016-05-19T10:54:56+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/project/cnn_for_mnist/</loc>
+    <lastmod>2016-05-04T10:29:55+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/post/deep_learning_in_a_nut_shell_core_concept/</loc>
+    <lastmod>2016-04-23T16:58:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/home/about/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/robust_detection_of_heartbeats/</loc>
+    <lastmod>2016-01-15T01:26:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/iterative_feature_selection/</loc>
+    <lastmod>2015-12-16T01:52:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/implementation_of_portable_device/</loc>
+    <lastmod>2014-12-10T01:43:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimation_of_regular_intervals/</loc>
+    <lastmod>2014-09-07T09:15:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimated_regular_intervals_from_ECG_and_BP/</loc>
+    <lastmod>2014-06-22T09:21:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/heartbeat_detection_method_using_heterogeneous_physiological_signal_analysis/</loc>
+    <lastmod>2014-03-12T09:24:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/developing_detection_algorithms_of_heart_diseases_and_portable_ECG/</loc>
+    <lastmod>2013-01-24T09:31:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/region_based_scene_segmentation_method_for_topography_analysis/</loc>
+    <lastmod>2012-11-22T09:37:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/framework_for_generating_obstacle_feature_map_using_uav_imaging/</loc>
+    <lastmod>2010-06-18T09:40:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/master_thesis/</loc>
+    <lastmod>2009-02-19T10:06:15+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/fast_scale_invariant_feature_transform/</loc>
+    <lastmod>2009-02-17T09:45:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/ga_based_data_fusion/</loc>
+    <lastmod>2008-12-08T09:49:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/development_of_smia_testing/</loc>
+    <lastmod>2008-07-02T09:55:25+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/probability_model_based_multicasting_routing/</loc>
+    <lastmod>2008-05-30T09:58:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/efficient_image_segmentation/</loc>
+    <lastmod>2008-02-20T09:52:31+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tgjeon.github.io/publication/sentimental_classification_system/</loc>
+    <lastmod>2007-02-05T10:01:59+09:00</lastmod>
+  </url>
+  
+</urlset>

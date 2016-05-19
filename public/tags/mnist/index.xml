@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mnist on Taegyun Jeon</title>
+    <link>https://tgjeon.github.io/tags/mnist/</link>
+    <description>Recent content in Mnist on Taegyun Jeon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Taegyun Jeon</copyright>
+    <lastBuildDate>Wed, 04 May 2016 10:29:55 +0900</lastBuildDate>
+    <atom:link href="https://tgjeon.github.io/tags/mnist/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Digit Recognizer using Convolutional Neural Networks for MNIST dataset</title>
+      <link>https://tgjeon.github.io/project/cnn_for_mnist/</link>
+      <pubDate>Wed, 04 May 2016 10:29:55 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/project/cnn_for_mnist/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://tgjeon.github.io/img/mnist.png&#34; alt=&#34;MNIST&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sponsor&lt;/strong&gt;: Individual project&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Period&lt;/strong&gt;: May, 2016&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;: Classification of images of handwritten single digit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Description and contributions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this individual project, I show how TensorFlow can be used to implement the Convolutional Neural Networks. I introduce a short descriptions of the model, which serves both as a refresher but also as to anchor the notation and show how mathematical expressions are mapped onto TensorFlow graph.
+Detail explanations are on the &lt;a href=&#34;https://tgjeon.github.io/kaggle_MNIST/&#34;&gt;project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Knowledge and Skills&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python&lt;/code&gt;, &lt;code&gt;TensorFlow&lt;/code&gt;, &lt;code&gt;Convolutional Neural Networks&lt;/code&gt;, &lt;code&gt;Digit Recognition&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

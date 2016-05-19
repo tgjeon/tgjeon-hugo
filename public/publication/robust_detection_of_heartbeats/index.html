@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="author" content="Taegyun Jeon">
+    <meta name="description" content="Research Scientist in Machine Learning and Biomedical Engineering">
+
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://tgjeon.github.io/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://tgjeon.github.io/publication/robust_detection_of_heartbeats/">
+
+    <title>Robust Detection of Heart Beats using Association Models from BP and EEG signals | Taegyun Jeon</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tgjeon.github.io/">Taegyun Jeon</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div id="pub">
+        <div class="pub-title">
+            <h1>Robust Detection of Heart Beats using Association Models from BP and EEG signals</h1>
+            <span class="citation_authors">
+                
+                Taegyun Jeon, Jongmin Yu, Witold Pedrycz, Moongu Jeon, Boreom Lee, Byeongcheol Lee
+                
+            </span>
+            <span class="pull-right">
+                
+<ul class="share">
+    <li>
+        <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2ftgjeon.github.io%2fpublication%2frobust_detection_of_heartbeats%2f" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=Robust%20Detection%20of%20Heart%20Beats%20using%20Association%20Models%20from%20BP%20and%20EEG%20signals&amp;url=https%3a%2f%2ftgjeon.github.io%2fpublication%2frobust_detection_of_heartbeats%2f" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftgjeon.github.io%2fpublication%2frobust_detection_of_heartbeats%2f&amp;title=Robust%20Detection%20of%20Heart%20Beats%20using%20Association%20Models%20from%20BP%20and%20EEG%20signals" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+            <span class="hidden">LinkedIn</span>
+        </a>
+    </li>
+    <li>
+        <a class="email" href="mailto:?subject=Robust%20Detection%20of%20Heart%20Beats%20using%20Association%20Models%20from%20BP%20and%20EEG%20signals&amp;body=https%3a%2f%2ftgjeon.github.io%2fpublication%2frobust_detection_of_heartbeats%2f">
+            <i class="fa fa-envelope-square"></i>
+            <span class="hidden">Email</span>
+        </a>
+    </li>
+</ul>
+
+
+            </span>
+        </div>
+
+        <h3>Abstract</h3>
+        <p>Backgrounds: The heartbeat is fundamental cardiac activity which is straightforwardly detected with a variety of measurement techniques for analyzing physiological signals. Unfortunately, unexpected noise or contaminated signals can distort or cut out electrocardiogram (ECG) signals in practice, misleading the heartbeat detectors to report a false heart rate or suspend itself for a considerable length of time in the worst case. To deal with the problem of unreliable heartbeat detection, PhysioNet/CinC suggests a challenge in 2014 for developing robust heart beat detectors using multimodal signals. Methods: This article proposes a multimodal data association method that supplements ECG as a primary input signal with blood pressure (BP) and electroencephalogram (EEG) as complementary input signals when input signals are unreliable. If the current signal quality index (SQI) qualifies ECG as a reliable input signal, our method applies QRS detection to ECG and reports heartbeats. Otherwise, the current SQI selects the best supplementary input signal between BP and EEG after evaluating the current SQI of BP. When BP is chosen as a supplementary input signal, our association model between ECG and BP enables us to compute their regular intervals, detect characteristics BP signals, and estimate the locations of the heartbeat. When both ECG and BP are not qualified, our fusion method resorts to the association model between ECG and EEG that allows us to apply an adaptive filter to ECG and EEG, extract the QRS candidates, and report heartbeats. Results: The proposed method achieved an overall score of 86.26 % for the test data when the input signals are unreliable. Our method outperformed the traditional method, which achieved 79.28 % using QRS detector and BP detector from PhysioNet. Our multimodal signal processing method outperforms the conventional unimodal method of taking ECG signals alone for both training and test data sets. Conclusions: To detect the heartbeat robustly, we have proposed a novel multimodal data association method of supplementing ECG with a variety of physiological signals and accounting for the patient-specific lag between different pulsatile signals and ECG. Multimodal signal detectors and data-fusion approaches such as those proposed in this article can reduce false alarms and improve patient monitoring.</p>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold">Publication</div>
+                    <div class="col-xs-12 col-sm-9">In <em>Biomedical Engineering Online (BME)</em></div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold">Date</div>
+                    <div class="col-xs-12 col-sm-9">January, 2016</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold; line-height:34px;">Links</div>
+                    <div class="col-xs-12 col-sm-9">
+
+                        
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/s12938-016-0122-0?site=biomedical-engineering-online.biomedcentral.com">PDF</a>
+
+
+
+<a class="btn btn-primary btn-outline" href="http://physionet.org/physiobank/database/challenge/2014/">Dataset</a>
+
+
+
+<a class="btn btn-primary btn-outline" href="http://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-016-0122-0"> Link</a>
+
+<a class="btn btn-primary btn-outline" href="https://tgjeon.github.io/bib/jeon2016robust.bib"> BibTex</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="space-below"></div>
+
+        
+
+    </div>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous"><a href="https://tgjeon.github.io/publication/iterative_feature_selection/"><span aria-hidden="true">&larr;</span> Iterative Feature Selection Method for Shock Advice Algorithm with Artifact-Free ECG</a></li>
+        
+
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Taegyun Jeon &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://tgjeon.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://tgjeon.github.io/js/bootstrap.min.js"></script>
+        <script src="https://tgjeon.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+
+    </body>
+</html>
+

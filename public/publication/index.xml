@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Taegyun Jeon</title>
+    <link>https://tgjeon.github.io/publication/</link>
+    <description>Recent content in Publications on Taegyun Jeon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Taegyun Jeon</copyright>
+    <lastBuildDate>Fri, 15 Jan 2016 01:26:13 +0900</lastBuildDate>
+    <atom:link href="https://tgjeon.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Robust Detection of Heart Beats using Association Models from BP and EEG signals</title>
+      <link>https://tgjeon.github.io/publication/robust_detection_of_heartbeats/</link>
+      <pubDate>Fri, 15 Jan 2016 01:26:13 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/robust_detection_of_heartbeats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iterative Feature Selection Method for Shock Advice Algorithm with Artifact-Free ECG</title>
+      <link>https://tgjeon.github.io/publication/iterative_feature_selection/</link>
+      <pubDate>Wed, 16 Dec 2015 01:52:27 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/iterative_feature_selection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation of portable device for real-time ECG signal analysis</title>
+      <link>https://tgjeon.github.io/publication/implementation_of_portable_device/</link>
+      <pubDate>Wed, 10 Dec 2014 01:43:07 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/implementation_of_portable_device/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heart beat detection method with estimation of regular intervals between ECG and blood pressure</title>
+      <link>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimation_of_regular_intervals/</link>
+      <pubDate>Sun, 07 Sep 2014 09:15:02 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimation_of_regular_intervals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heart Beat Detection Method using Estimated Regular Intervals from ECG and Blood Pressure</title>
+      <link>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimated_regular_intervals_from_ECG_and_BP/</link>
+      <pubDate>Sun, 22 Jun 2014 09:21:50 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimated_regular_intervals_from_ECG_and_BP/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heart Beat Detection Method using Heterogeneous Physiological Signal Analysis</title>
+      <link>https://tgjeon.github.io/publication/heartbeat_detection_method_using_heterogeneous_physiological_signal_analysis/</link>
+      <pubDate>Wed, 12 Mar 2014 09:24:54 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/heartbeat_detection_method_using_heterogeneous_physiological_signal_analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Developing Detection Algorithms of Heart Diseases and Portable ECG</title>
+      <link>https://tgjeon.github.io/publication/developing_detection_algorithms_of_heart_diseases_and_portable_ECG/</link>
+      <pubDate>Thu, 24 Jan 2013 09:31:37 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/developing_detection_algorithms_of_heart_diseases_and_portable_ECG/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Region based Scene Segmentation method for Topography Analysis</title>
+      <link>https://tgjeon.github.io/publication/region_based_scene_segmentation_method_for_topography_analysis/</link>
+      <pubDate>Thu, 22 Nov 2012 09:37:32 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/region_based_scene_segmentation_method_for_topography_analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Framework for Generating Obstacle Feature Map Using UAV Imaging</title>
+      <link>https://tgjeon.github.io/publication/framework_for_generating_obstacle_feature_map_using_uav_imaging/</link>
+      <pubDate>Fri, 18 Jun 2010 09:40:45 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/framework_for_generating_obstacle_feature_map_using_uav_imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio-Inspired Computing: Design and Applications</title>
+      <link>https://tgjeon.github.io/publication/master_thesis/</link>
+      <pubDate>Thu, 19 Feb 2009 10:06:15 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/master_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Scale-Invariant Feature Transform using Niching Particle Swarm Optimization</title>
+      <link>https://tgjeon.github.io/publication/fast_scale_invariant_feature_transform/</link>
+      <pubDate>Tue, 17 Feb 2009 09:45:53 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/fast_scale_invariant_feature_transform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New GA-based Data Fusion Methodology for Detecting Harmful Algal Blooms</title>
+      <link>https://tgjeon.github.io/publication/ga_based_data_fusion/</link>
+      <pubDate>Mon, 08 Dec 2008 09:49:02 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/ga_based_data_fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A study on the development of integrated software for testing SMIA camera module systems</title>
+      <link>https://tgjeon.github.io/publication/development_of_smia_testing/</link>
+      <pubDate>Wed, 02 Jul 2008 09:55:25 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/development_of_smia_testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Probability Model based Multicast Routing Algorithm with Multi-QoS Constraints</title>
+      <link>https://tgjeon.github.io/publication/probability_model_based_multicasting_routing/</link>
+      <pubDate>Fri, 30 May 2008 09:58:20 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/probability_model_based_multicasting_routing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Efficient Image Segmentation Method in Multi-Core Processor Environments</title>
+      <link>https://tgjeon.github.io/publication/efficient_image_segmentation/</link>
+      <pubDate>Wed, 20 Feb 2008 09:52:31 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/publication/efficient_image_segmentation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

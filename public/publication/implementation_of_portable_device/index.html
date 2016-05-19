@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.15" />
+    <meta name="author" content="Taegyun Jeon">
+    <meta name="description" content="Research Scientist in Machine Learning and Biomedical Engineering">
+
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="https://tgjeon.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://tgjeon.github.io/img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://tgjeon.github.io/publication/implementation_of_portable_device/">
+
+    <title>Implementation of portable device for real-time ECG signal analysis | Taegyun Jeon</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://tgjeon.github.io/">Taegyun Jeon</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://tgjeon.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div id="pub">
+        <div class="pub-title">
+            <h1>Implementation of portable device for real-time ECG signal analysis</h1>
+            <span class="citation_authors">
+                
+                Taegyun Jeon, Byoungho Kim, Moongu Jeon, Byung-Geun Lee
+                
+            </span>
+            <span class="pull-right">
+                
+<ul class="share">
+    <li>
+        <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2ftgjeon.github.io%2fpublication%2fimplementation_of_portable_device%2f" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=Implementation%20of%20portable%20device%20for%20real-time%20ECG%20signal%20analysis&amp;url=https%3a%2f%2ftgjeon.github.io%2fpublication%2fimplementation_of_portable_device%2f" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+    </li>
+    <li>
+        <a class="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftgjeon.github.io%2fpublication%2fimplementation_of_portable_device%2f&amp;title=Implementation%20of%20portable%20device%20for%20real-time%20ECG%20signal%20analysis" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+            <span class="hidden">LinkedIn</span>
+        </a>
+    </li>
+    <li>
+        <a class="email" href="mailto:?subject=Implementation%20of%20portable%20device%20for%20real-time%20ECG%20signal%20analysis&amp;body=https%3a%2f%2ftgjeon.github.io%2fpublication%2fimplementation_of_portable_device%2f">
+            <i class="fa fa-envelope-square"></i>
+            <span class="hidden">Email</span>
+        </a>
+    </li>
+</ul>
+
+
+            </span>
+        </div>
+
+        <h3>Abstract</h3>
+        <p>Background: Cardiac disease is one of the main causes of catastrophic mortality. Therefore, detecting the symptoms of cardiac disease as early as possible is important for increasing the patient’s survival. In this study, a compact and effective architecture for detecting atrial fibrillation (AFib) and myocardial ischemia is proposed. We developed a portable device using this architecture, which allows real-time electrocardiogram (ECG) signal acquisition and analysis for cardiac diseases. Methods: A noisy ECG signal was preprocessed by an analog front-end consisting of analog filters and amplifiers before it was converted into digital data. The analog front-end was minimized to reduce the size of the device and power consumption by implementing some of its functions with digital filters realized in software. With the ECG data, we detected QRS complexes based on wavelet analysis and feature extraction for morphological shape and regularity using an ARM processor. A classifier for cardiac disease was constructed based on features extracted from a training dataset using support vector machines. The classifier then categorized the ECG data into normal beats, AFib, and myocardial ischemia. Results: A portable ECG device was implemented, and successfully acquired and processed ECG signals. The performance of this device was also verified by comparing the processed ECG data with high-quality ECG data from a public cardiac database. Because of reduced computational complexity, the ARM processor was able to process up to a thousand samples per second, and this allowed real-time acquisition and diagnosis of heart disease. Experimental results for detection of heart disease showed that the device classified AFib and ischemia with a sensitivity of 95.1% and a specificity of 95.9%. Conclusions: Current home care and telemedicine systems have a separate device and diagnostic service system, which results in additional time and cost. Our proposed portable ECG device provides captured ECG data and suspected waveform to identify sporadic and chronic events of heart diseases. This device has been built and evaluated for high quality of signals, low computational complexity, and accurate detection.</p>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold">Publication</div>
+                    <div class="col-xs-12 col-sm-9">In <em>Biomedical Engineering Online (BME)</em></div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold">Date</div>
+                    <div class="col-xs-12 col-sm-9">December, 2014</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3" style="font-weight: bold; line-height:34px;">Links</div>
+                    <div class="col-xs-12 col-sm-9">
+
+                        
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://biomedical-engineering-online.biomedcentral.com/track/pdf/10.1186/1475-925X-13-160?site=biomedical-engineering-online.biomedcentral.com">PDF</a>
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-160"> Link</a>
+
+<a class="btn btn-primary btn-outline" href="https://tgjeon.github.io/bib/jeon2014implementation.bib"> BibTex</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="space-below"></div>
+
+        
+
+    </div>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous"><a href="https://tgjeon.github.io/publication/heartbeat_detection_method_with_estimation_of_regular_intervals/"><span aria-hidden="true">&larr;</span> Heart beat detection method with estimation of regular intervals between ECG and blood pressure</a></li>
+        
+
+        
+        <li class="next"><a href="https://tgjeon.github.io/publication/iterative_feature_selection/">Iterative Feature Selection Method for Shock Advice Algorithm with Artifact-Free ECG <span aria-hidden="true">&rarr;</span></a></li>
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Taegyun Jeon &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://tgjeon.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://tgjeon.github.io/js/bootstrap.min.js"></script>
+        <script src="https://tgjeon.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+
+    </body>
+</html>
+
