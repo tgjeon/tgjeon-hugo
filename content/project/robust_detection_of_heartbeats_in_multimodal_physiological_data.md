@@ -1,20 +1,18 @@
 +++
-client_name = "Gwangju Institute of Science and Technology"
-date = "2016-05-19T10:54:56+09:00"
+client_name = "System Biology Research Center"
+date = "2016-05-19T13:58:31+09:00"
 external_link = ""
 img = ""
 img_preview = ""
 summary = ""
-tags = [""]
-title = "Living Energy: distributed-intelligence management and operation for smart energy"
-math = false
+tags = ["System Biology"]
+title = "Robust Detection of Heart Beats in Multimodal Physiological Data"
 
 +++
 
+**Sponsor**: System Biology Research Center (SBRC) at Gwangu Institute of Science and Technology (GIST) 
 
-**Sponsor**: Gwangu Institute of Science and Technology (GIST) 
-
-**Period**: 1/2016 - 12/2017
+**Period**: 1/2014 - 12/2015
 
 **Tasks**: 
 
@@ -30,3 +28,4 @@ In this project, I show how deep learning can be used to optimize electricity lo
 **Knowledge and Skills**
 
 ```python```, ```TensorFlow```, ```Recurrent Neural Networks```, ```Load Forecasting```
+

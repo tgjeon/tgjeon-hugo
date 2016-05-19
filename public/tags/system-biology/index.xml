@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Biology on Taegyun Jeon</title>
+    <link>https://tgjeon.github.io/tags/system-biology/</link>
+    <description>Recent content in System Biology on Taegyun Jeon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Taegyun Jeon</copyright>
+    <lastBuildDate>Thu, 19 May 2016 13:58:31 +0900</lastBuildDate>
+    <atom:link href="https://tgjeon.github.io/tags/system-biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Robust Detection of Heart Beats in Multimodal Physiological Data</title>
+      <link>https://tgjeon.github.io/project/robust_detection_of_heartbeats_in_multimodal_physiological_data/</link>
+      <pubDate>Thu, 19 May 2016 13:58:31 +0900</pubDate>
+      
+      <guid>https://tgjeon.github.io/project/robust_detection_of_heartbeats_in_multimodal_physiological_data/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sponsor&lt;/strong&gt;: System Biology Research Center (SBRC) at Gwangu Institute of Science and Technology (GIST)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Period&lt;/strong&gt;: &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2014&lt;/sub&gt; - &lt;sup&gt;12&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2015&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tasks&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Develop perversive demand response (DR) based on Big Data analytics.&lt;/li&gt;
+&lt;li&gt;Optimize electricity load forecasting with energy patterns and factor diversification.&lt;/li&gt;
+&lt;li&gt;Drive a long-term analysis and reporting based on load forecasting and electricity consumptions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Description and contributions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this project, I show how deep learning can be used to optimize electricity load forecasting. I introduce a short descriptions of the model, which serves both as a refresher but also as to anchor the notation and show how mathematical expressions are mapped onto TensorFlow graph.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Knowledge and Skills&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;python&lt;/code&gt;, &lt;code&gt;TensorFlow&lt;/code&gt;, &lt;code&gt;Recurrent Neural Networks&lt;/code&gt;, &lt;code&gt;Load Forecasting&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
